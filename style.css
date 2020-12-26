@@ -1,0 +1,58 @@
+body {
+  background-image: url(img/bg.png);
+  background-repeat: no-repeat;
+  background-clip: cover;
+}
+
+header {
+  width: 100%;
+}
+
+header nav .icon-image {
+  margin-right: 1rem;
+}
+
+header nav .nav-link {
+  padding-right: 2.5rem !important;
+}
+
+.content {
+  height: 80vh;
+}
+
+.content .content-inside {
+  padding: 10% 0;
+}
+
+.content .phone-svg svg {
+  width: 100%;
+}
+
+.content .content-text h1 {
+  color: white;
+  margin-bottom: 3.5rem;
+}
+
+.content .content-text p {
+  color: #DBC7F6;
+  margin-bottom: 3.5rem;
+}
+
+.content .content-text .btn {
+  background-color: #8325F7;
+  padding: 1rem 2rem;
+  color: white;
+  border-radius: 7px;
+  -webkit-transition: -webkit-transform 0.2s ease-in;
+  transition: -webkit-transform 0.2s ease-in;
+  transition: transform 0.2s ease-in;
+  transition: transform 0.2s ease-in, -webkit-transform 0.2s ease-in;
+}
+
+.content .content-text .btn:hover {
+  -webkit-transform: translateY(-10%);
+          transform: translateY(-10%);
+  -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+          box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+/*# sourceMappingURL=style.css.map */
